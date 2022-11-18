@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newhome"
+    tools:context=".Homescreen" >
+
+
+    <Button
+        android:id="@+id/lcalc"
+        android:layout_width="221dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="204dp"
+        android:onClick="lorentzCalc"
+        android:text="Lorentz Factor Calculator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/scalc"
+        android:layout_width="209dp"
+        android:layout_height="90dp"
+        android:onClick="SpiCalc"
+        android:text="Spi factor calculator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lcalc"
+        app:layout_constraintVertical_bias="0.206" />"
+    app:layout_constraintVertical_bias="0.172" />
+</androidx.constraintlayout.widget.ConstraintLayout>

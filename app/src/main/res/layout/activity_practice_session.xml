@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbg"
+    tools:context=".PracticeSession">
+
+
+    <EditText
+        android:id="@+id/inputv"
+        android:layout_width="383dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="68dp"
+        android:gravity="center"
+        android:hint="Speed of moving observer:"
+        android:inputType="numberDecimal"
+        android:textColor="#3417B5"
+        android:textColorHint="#3417B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputl"
+        android:layout_width="383dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="196dp"
+        android:gravity="center"
+        android:hint="Calulated Lorentz Factor:"
+        android:inputType="numberDecimal"
+        android:textColor="#3417B5"
+        android:textColorHint="#3417B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note" />
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="370dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="40dp"
+        android:text="Note:Enter lorentz factor upto 7 decimal places."
+        android:textColor="#3417B5"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputl" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="355dp"
+        android:layout_height="92dp"
+        android:gravity="center"
+        android:textColor="#010829"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn"
+        app:layout_constraintVertical_bias="0.155" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

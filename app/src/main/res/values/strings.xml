@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">spider</string>
+    <string name="speed_of_moving_observer">Speed of Moving Observer</string>
+    <string name="find_lorentz">Find Lorentz</string>
+    <string name="result">Result</string>
+    <string name="lorentz_factor_calculator">Lorentz factor Calculator</string>
+    <string name="plain_text">plain text</string>
+</resources>
