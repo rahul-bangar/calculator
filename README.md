@@ -1,1 +1,1 @@
-# Spider calculator app!
+# LORENTZ AND SPI FACTOR CALCULATOR!
